@@ -1,0 +1,152 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} */
+
+body {
+  background-color: #b5a789;
+  margin: 0px;
+  color: #312e2b;
+}
+
+#boardCell {
+  /* background-color: aqua; */
+  /* margin: auto; */
+  top: 20%;
+}
+
+#board {
+  top: 10rem;
+  position: relative;
+  background: url(./images/board.jpg);
+  width: 587px;
+  height: 587px;
+  margin: auto;
+}
+
+table {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  border-spacing: 0px;
+}
+
+td {
+  width: 64px;
+  height: 64px;
+  border-spacing: 0px;
+}
+
+.whiteBishop {
+  background: url(./images/bishop1.png) no-repeat center center;
+}
+
+.whiteBishop:hover {
+  opacity: 0.7;
+}
+
+.blackBishop {
+  background: url(./images/bishop.png) no-repeat center center;
+}
+
+.blackBishop:hover {
+  opacity: 0.7;
+}
+
+.whiteKnight {
+  background: url(./images/knight1.png) no-repeat center center;
+}
+
+.whiteKnight:hover {
+  opacity: 0.7;
+}
+
+.blackKnight {
+  background: url(./images/knight.png) no-repeat center center;
+}
+
+.blackKnight:hover {
+  opacity: 0.7;
+}
+
+.whiteKing {
+  background: url(./images/king1.png) no-repeat center center;
+}
+
+.whiteKing:hover {
+  opacity: 0.7;
+}
+
+.blackKing {
+  background: url(./images/king.png) no-repeat center center;
+}
+
+.blackKing:hover {
+  opacity: 0.7;
+}
+
+.whitePawn {
+  background: url(./images/pawn1.png) no-repeat center center;
+}
+
+.whitePawn:hover {
+  opacity: 0.7;
+}
+
+.blackPawn {
+  background: url(./images/pawn.png) no-repeat center center;
+}
+
+.blackPawn:hover {
+  opacity: 0.7;
+}
+
+.whiteQueen {
+  background: url(./images/queen1.png) no-repeat center center;
+}
+
+.whiteQueen:hover {
+  opacity: 0.7;
+}
+
+.blackQueen {
+  background: url(./images/queen.png) no-repeat center center;
+}
+
+.blackQueen:hover {
+  opacity: 0.7;
+}
+
+.whiteRook {
+  background: url(./images/rook1.png) no-repeat center center;
+}
+
+.whiteRook:hover {
+  opacity: 0.7;
+}
+
+.blackRook {
+  background: url(./images/rook.png) no-repeat center center;
+}
+
+.blackRook:hover {
+  opacity: 0.7;
+}
+
+.selected {
+  background-color: blue;
+}
+
+.possible {
+  background-color: yellow;
+  opacity: 0.7;
+}
+
+.killable {
+  background-color: red;
+  opacity: 0.85;
+}

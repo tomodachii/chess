@@ -1,0 +1,129 @@
+#board {
+    position: relative;
+    background: url(./images/board.jpg);
+    width: 720px;
+    height: 720px;
+    margin: auto;
+}
+
+table {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-spacing: 0px;
+}
+
+td {
+    width: 78px;
+    height: 79px;
+}
+
+.whiteBishop {
+    background: url(./images/bishop1.png) no-repeat center center;
+}
+
+.whiteBishop:hover {
+    opacity: 0.7;
+}
+
+.blackBishop {
+    background: url(./images/bishop.png) no-repeat center center;
+}
+
+.blackBishop:hover {
+    opacity: 0.7;
+}
+
+.whiteKnight {
+    background: url(./images/knight1.png) no-repeat center center;
+}
+
+.whiteKnight:hover {
+    opacity: 0.7;
+}
+
+.blackKnight {
+    background: url(./images/knight.png) no-repeat center center;
+}
+
+.blackKnight:hover {
+    opacity: 0.7;
+}
+
+.whiteKing {
+    background: url(./images/king1.png) no-repeat center center;
+}
+
+.whiteKing:hover {
+    opacity: 0.7;
+}
+
+.blackKing {
+    background: url(./images/king.png) no-repeat center center;
+}
+
+.blackKing:hover {
+    opacity: 0.7;
+}
+
+.whitePawn {
+    background: url(./images/pawn1.png) no-repeat center center;
+}
+
+.whitePawn:hover {
+    opacity: 0.7;
+}
+
+.blackPawn {
+    background: url(./images/pawn.png) no-repeat center center;
+}
+
+.blackPawn:hover {
+    opacity: 0.7;
+}
+
+.whiteQueen {
+    background: url(./images/queen1.png) no-repeat center center;
+}
+
+.whiteQueen:hover {
+    opacity: 0.7;
+}
+
+.blackQueen {
+    background: url(./images/queen.png) no-repeat center center;
+}
+
+.blackQueen:hover {
+    opacity: 0.7;
+}
+
+.whiteRook {
+    background: url(./images/rook1.png) no-repeat center center;
+}
+
+.whiteRook:hover {
+    opacity: 0.7;
+}
+
+.blackRook {
+    background: url(./images/rook.png) no-repeat center center;
+}
+
+.blackRook:hover {
+    opacity: 0.7;
+}
+
+.selected {
+    background-color: blue;
+}
+
+.possible {
+    background-color: yellow;
+    opacity: 0.7;
+}
+
+.killable {
+    background-color: red;
+    opacity: 0.85;
+}
