@@ -22,7 +22,7 @@ body {
 #board {
   top: 10rem;
   position: relative;
-  background: url(./images/board.jpg);
+  /* background: url(./images/board.jpg); */
   width: 587px;
   height: 587px;
   margin: auto;
@@ -142,11 +142,21 @@ td {
 }
 
 .possible {
-  background-color: yellow;
-  opacity: 0.7;
+  background-color: yellow !important;
+  opacity: 0.7 !important;
 }
 
 .killable {
-  background-color: red;
-  opacity: 0.85;
+  background-color: red !important;
+  opacity: 0.85 !important;
+}
+
+.black-square {
+  border: solid black 1px;
+  background-color: green;
+}
+
+.white-square {
+  border: solid black 1px;
+  background-color: white;
 }
